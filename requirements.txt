@@ -7,4 +7,6 @@ openai
 python-dotenv
 azure-search-documents
 ipykernel
-
+fastapi
+uvicorn
+pydantic
