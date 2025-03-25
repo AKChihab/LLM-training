@@ -57,7 +57,8 @@ async def main():
  
     result = await kernel.invoke(plugin_name="analyst", function_name="crypto_analyst",chat_history=chat_history)
     print(result)
-    
+    return result  
+
 if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
