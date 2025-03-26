@@ -12,3 +12,4 @@ async def read_root():
         return {"result": str(result)}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
